@@ -1,0 +1,261 @@
+.widgets-row {
+  padding: 60px 0;
+  border-bottom: 1px solid #dee0ea;
+}
+
+
+.footer .widgets-row .footer-widgets {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.widgets-row .footer-widgets>div {
+  flex: 1;
+}
+
+.widgets-row .footer-widgets>.brand-info {
+  flex: 3;
+}
+
+.footer-widgets .brand-info .footer-desc {
+  width: 400px;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.footer-widgets .brand-info .footer-conntact {
+  font-size: 14px;
+}
+
+.footer-widgets .widget-nav-menu h4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+
+.footer-widgets .widget-nav-menu ul {
+  margin-top: 20px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  
+}
+
+.footer-logo img{
+
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 768px) {
+  .footer .footer-row-wrapper {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .footer .brand-info {
+    margin-bottom: 20px;
+  }
+
+  .widgets-row .footer-widgets>div {
+    flex: unset;
+  }
+
+  .footer-widgets .brand-info .footer-desc {
+    width: unset;
+  }
+
+  .products .product-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-logo img{
+
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+
+
+  .product-item .product-links {
+    top: 30px;
+  }
+
+  .footer-copyright {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+  }
+
+  .footer-copyright .footer-menu {
+    margin-left: unset;
+  }
+
+  .contactarea .contactarea-wrapper {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .contactarea{
+    height: 600px !important;
+  }
+
+  .contactarea-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactarea-phone .phone-title{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.contactarea-phone{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer .contactarea{
+  height: 600px;
+}
+
+.contactarea .contactarea-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.phone-title-wp{
+  font-size:50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.email-desc {
+  font-size: 12px;
+  color: #dee0ea94;
+}
+
+.phone-desc {
+  font-size: 12px;
+  color: #dee0ea94;
+}
+
+.contactarea {
+  background-color: rgba(0, 0, 0, 0.888);
+}
+
+.contactarea .container{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactarea .contactarea-email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.contactarea .contactarea-email form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 48px;
+}
+
+.contactarea .contactarea-email form>input {
+  flex: 1;
+  height: 48px;
+  border: none;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.contactarea .contactarea-email form>button {
+  height: 48px !important;
+  border-color: #fff;
+  width: 100px;
+  margin-top: 50px;
+}
+
+.contactarea .btn-subscribe {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgba(35, 34, 34, 0.888);
+  padding: 12px;
+  border: 1px solid #dee0ea;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.contactarea .btn-subscribe:hover {
+  opacity: 0.7;
+  transition: ease all 0.4s;
+  border-color: rgba(57, 54, 54, 0.751);
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.footer-copyright .footer-menu {
+  margin-left: 25px;
+}
+
+.footer-copyright .site-copyright {
+  font-size: 12px;
+}
+
+.footer-menu-list {
+  display: flex;
+  column-gap: 10px;
+  font-size: 12px;
+  align-items: center;
+}
+
+.footer-menu-list .list-item:not(:last-child) {
+  border-right: 1px solid #dee0ea;
+  padding-right: 10px;
+}
+
+.custom-icon{
+  font-size: 15px;
+  color:rgba(0, 0, 0, 0.642);
+}
+
+.footer-left-info{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-contact{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  justify-content: center;
+}
+
+.custom-icon1{
+  border-right: 1px solid #dee0ea;
+  padding-right: 10px;
+}
